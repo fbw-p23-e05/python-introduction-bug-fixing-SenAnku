@@ -404,8 +404,8 @@ The problem:
 
 Program with bugs:  
 ```python
-x = input("First number: ")
-y = input("Second number: ")
+x = int(input("First number: "))
+y = int(input("Second number: "))
 
 if x %% y >= 0:
     print("First number is divisible by second number, result =", x // y)
